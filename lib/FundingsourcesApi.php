@@ -22,6 +22,7 @@
 
 namespace DwollaSwagger;
 
+#[AllowDynamicProperties]
 class FundingsourcesApi {
 
   function __construct($apiClient = null) {

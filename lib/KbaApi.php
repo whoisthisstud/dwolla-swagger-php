@@ -22,6 +22,7 @@
 
 namespace DwollaSwagger;
 
+#[AllowDynamicProperties]
 class KbaApi {
 
   function __construct($apiClient = null) {

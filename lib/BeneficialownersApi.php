@@ -22,6 +22,7 @@
 
 namespace DwollaSwagger;
 
+#[AllowDynamicProperties]
 class BeneficialownersApi {
 
   function __construct($apiClient = null) {

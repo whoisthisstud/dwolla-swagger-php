@@ -22,6 +22,7 @@
 
 namespace DwollaSwagger;
 
+#[AllowDynamicProperties]
 class WebhooksubscriptionsApi {
 
   function __construct($apiClient = null) {

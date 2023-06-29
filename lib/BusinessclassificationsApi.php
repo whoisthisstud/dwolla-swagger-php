@@ -22,6 +22,7 @@
 
 namespace DwollaSwagger;
 
+#[AllowDynamicProperties]
 class BusinessclassificationsApi {
 
   function __construct($apiClient = null) {

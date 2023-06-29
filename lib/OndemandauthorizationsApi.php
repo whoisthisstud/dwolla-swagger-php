@@ -22,6 +22,7 @@
 
 namespace DwollaSwagger;
 
+#[AllowDynamicProperties]
 class OndemandauthorizationsApi {
 
   function __construct($apiClient = null) {

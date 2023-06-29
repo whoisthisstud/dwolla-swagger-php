@@ -22,6 +22,7 @@
 
 namespace DwollaSwagger;
 
+#[AllowDynamicProperties]
 class DocumentsApi {
 
   function __construct($apiClient = null) {

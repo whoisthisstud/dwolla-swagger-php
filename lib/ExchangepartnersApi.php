@@ -25,6 +25,7 @@ namespace DwollaSwagger;
 use DwollaSwagger\models\ExchangePartner;
 use DwollaSwagger\models\ExchangePartnerListResponse;
 
+#[AllowDynamicProperties]
 class ExchangepartnersApi {
 
   function __construct($apiClient = null) {
