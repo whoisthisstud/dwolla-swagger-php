@@ -19,6 +19,7 @@ namespace DwollaSwagger;
 
 use \Exception;
 
+#[AllowDynamicProperties]
 class ApiException extends Exception {
 
   /**

@@ -17,6 +17,7 @@
 
 namespace DwollaSwagger;
 
+#[AllowDynamicProperties]
 class Configuration {
 
   /**

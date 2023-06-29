@@ -22,6 +22,7 @@
 
 namespace DwollaSwagger;
 
+#[AllowDynamicProperties]
 class LabelsApi {
 
   function __construct($apiClient = null) {

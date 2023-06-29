@@ -22,6 +22,7 @@
 
 namespace DwollaSwagger;
 
+#[AllowDynamicProperties]
 class LedgerentriesApi {
 
   function __construct($apiClient = null) {

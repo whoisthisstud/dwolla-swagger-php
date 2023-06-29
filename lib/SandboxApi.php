@@ -22,6 +22,7 @@
 
 namespace DwollaSwagger;
 
+#[AllowDynamicProperties]
 class SandboxApi {
 
   function __construct($apiClient = null) {

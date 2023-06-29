@@ -22,6 +22,7 @@
 
 namespace DwollaSwagger;
 
+#[AllowDynamicProperties]
 class MasspaymentsApi {
 
   function __construct($apiClient = null) {
